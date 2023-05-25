@@ -32,7 +32,8 @@ chmod +x btcpayserver-install.sh
 ## FastSync (optional)
 
 ```
-cd /root/btcpayserver/btcpayserver-docker
+cd
+cd /btcpayserver-docker
 ./btcpay-down.sh
 cd contrib/FastSync
 ./load-utxo-set.sh
