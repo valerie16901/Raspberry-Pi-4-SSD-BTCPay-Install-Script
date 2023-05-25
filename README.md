@@ -1,9 +1,11 @@
 # Raspberry-Pi-4-SSD-BTCPay-Install-Script
-A Script to install BTCPay on a SSD, no SD Card needed
+A Script to install BTCPay on a SSD, no SD Card needed.
+
+Feel free to fork this repository and modify it for your use case scenario.
 
 ## Instructions:
 
-Loging to via ssh to your raspberry pi OS installation:
+Login via ssh to your raspberry pi OS installation:
 
 ```
 ssh btcpay@btcpay.local
