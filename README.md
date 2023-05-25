@@ -28,3 +28,20 @@ wget -O btcpayserver-install.sh https://raw.githubusercontent.com/valerie16901/R
 chmod +x install.sh
 . install.sh
 ```
+
+##FastSync (optional)
+
+```
+cd /root/btcpayserver/btcpayserver-docker
+./btcpay-down.sh
+cd contrib/FastSync
+./load-utxo-set.sh
+
+```
+
+FastSync currently takes about 30 minutes on a high-speed internet connection. After FastSync finishes, run the following command to restart BTCPay Server:
+
+```
+cd ../..
+./btcpay-up.sh
+```
