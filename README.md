@@ -29,7 +29,7 @@ chmod +x install.sh
 . install.sh
 ```
 
-##FastSync (optional)
+## FastSync (optional)
 
 ```
 cd /root/btcpayserver/btcpayserver-docker
