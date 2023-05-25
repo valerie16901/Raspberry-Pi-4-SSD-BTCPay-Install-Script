@@ -5,15 +5,21 @@ A Script to install BTCPay on a SSD, no SD Card needed
 
 Loging to via ssh to your raspberry pi OS installation:
 
-`ssh btcpay@btcpay.local`
+```
+ssh btcpay@btcpay.local
+```
 
 Switch to root:
 
-`sudo su -`
+```
+sudo su -
+```
 
 **REQUIRED**, Export your domain:
 
-`export BTCPAY_ADDITIONAL_HOSTS="btcpay.YourDomain.com"`
+```
+export BTCPAY_ADDITIONAL_HOSTS="btcpay.YourDomain.com"
+```
 
 Download and run the install script:
 
