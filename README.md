@@ -20,7 +20,7 @@ sudo su -
 **REQUIRED**, Export your domain:
 
 ```
-export BTCPAY_ADDITIONAL_HOSTS="btcpay.YourDomain.com"
+export BTCPAY_HOSTS="btcpay.YourDomain.com"
 ```
 
 Download and run the install script:
