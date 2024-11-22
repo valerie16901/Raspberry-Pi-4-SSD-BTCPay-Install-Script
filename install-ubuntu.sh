@@ -24,7 +24,7 @@ cd # ensure we are in root home
 git clone https://github.com/btcpayserver/btcpayserver-docker
 cd btcpayserver-docker
 
-export BTCPAY_ADDITIONAL_HOSTS="btcpay.local"
+
 export REVERSEPROXY_DEFAULT_HOST="$BTCPAY_HOST"
 export NBITCOIN_NETWORK="mainnet"
 export BTCPAYGEN_CRYPTO1="btc"
